@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de Formulário</title>
+</head>
+<body>
+    <div>
+        <h1>Formulário de validação de números</h1>
+        <form id="formulario" onsubmit="validarFormulario(event)">
+            <label for="n1">Campo A:</label>
+            <input type="number" name="n1" id="n1">
+            <label for="n2">Campo B:</label>
+            <input type="number" name="n2" id="n2">
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="mensagem"></p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
